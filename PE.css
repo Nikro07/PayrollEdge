@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b1e3c;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background: #102a5c;
+}
+
+.nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #142f66;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+    margin: 0 0 10px 0;
+}
+
+.security {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.form {
+    padding: 20px;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 8px 12px;
+    background: #4aa3ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
